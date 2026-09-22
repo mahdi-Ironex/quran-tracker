@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="">
+
+    <title>Quran Tracker</title>
+</head>
+
+<body>
+
+    <header>
+        <p class="intro">welcome</p>
+        <h1>Quran Tracker</h1>
+        <div class="spacer">welcome</div>
+    </header>
+
+    <main>
+
+        <section class="hifd">
+
+            <h2>Current Progress</h2>
+
+            <article class="group__first__hifd">
+                <input
+                    type="text"
+                    name="hifd"
+                    class="first__hifd"
+                    aria-label="Enter Hifd"
+                >
+
+                <button class="first__hifd__btn btn">
+                    enter
+                </button>
+            </article>
+
+            <div class="between">
+
+                <button class="hifd__decrease__btn btn">
+                    -
+                </button>
+
+                <div class="hifd__counter"></div>
+
+                <button class="hifd__add__btn btn">
+                    +
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="ward">
+
+            <h3>Repetitions</h3>
+
+            <div class="ward__step">0</div>
+
+            <div class="between">
+
+                <button class="ward__decrease__btn btn">
+                    -
+                </button>
+
+                <button class="ward__add__btn btn">
+                    +
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <button class="push__ward__btn btn">
+            push
+        </button>
+
+
+        <section class="table">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th scope="col">اليوم</th>
+                        <th scope="col">الورد</th>
+                        <th scope="col">الحفظ</th>
+                        <th scope="col">تصحيح</th>
+                        <th class="del">remove</th>
+                    </tr>
+                </thead>
+
+                <tbody class="Progress">
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <button class="delete__btn btn">
+            reset
+        </button>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
